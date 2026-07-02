@@ -4,13 +4,7 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
-  const API_KEY = process.env.API_KEY
-  if(!API_KEY){
-    return  NextResponse.json({
-      success: false,
-      message: "Unautherized Request.",
-    });
-  }
+
 
   try {
     const { name, email, message } = await req.json();

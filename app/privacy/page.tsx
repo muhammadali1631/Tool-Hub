@@ -7,11 +7,11 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Privacy Policy - ToolHub",
   description: "ToolHub Privacy Policy. Learn how we protect your privacy and handle your data when you use our free online tools.",
-  alternates: { canonical: "https://toolhub.vercel.app/privacy" },
+  alternates: { canonical: "https://toolhub1.vercel.app/privacy" },
   openGraph: {
     title: "Privacy Policy - ToolHub",
     description: "Learn how ToolHub protects your privacy.",
-    url: "https://toolhub.vercel.app/privacy",
+    url: "https://toolhub1.vercel.app/privacy",
   },
   twitter: {
     card: "summary_large_image",
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
       { "@type": "ListItem", position: 2, name: "Privacy Policy" },
     ],
   }

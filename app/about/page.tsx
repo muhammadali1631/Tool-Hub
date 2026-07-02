@@ -9,11 +9,11 @@ import { Zap, Globe, Shield, Users } from "lucide-react"
 export const metadata: Metadata = {
   title: "About Us - ToolHub | Free Online Tools",
   description: "Learn about ToolHub - our mission to provide fast, secure, and completely free online tools for everyone.",
-  alternates: { canonical: "https://toolhub.vercel.app/about" },
+  alternates: { canonical: "https://toolhub1.vercel.app/about" },
   openGraph: {
     title: "About ToolHub",
     description: "Our mission to provide fast, secure, and completely free online tools.",
-    url: "https://toolhub.vercel.app/about",
+    url: "https://toolhub1.vercel.app/about",
   },
   twitter: {
     card: "summary_large_image",
@@ -57,7 +57,7 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
       { "@type": "ListItem", position: 2, name: "About" },
     ],
   }

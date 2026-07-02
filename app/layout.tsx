@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const baseUrl = "https://toolhub.vercel.app"
+const baseUrl = "https://toolhub1.vercel.app"
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -51,12 +51,12 @@ const jsonLdSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "ToolHub",
-  url: "https://toolhub.vercel.app",
+  url: "https://toolhub1.vercel.app",
   description:
     "20 Free Online Tools for text processing, conversion, generation, and calculations.",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://toolhub.vercel.app/search?q={search_term_string}",
+    target: "https://toolhub1.vercel.app/search?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };

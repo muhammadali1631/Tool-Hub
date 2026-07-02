@@ -26,7 +26,7 @@ export async function generateMetadata({
     keywords: tool.keywords,
     openGraph: { title: tool.seoTitle, description: tool.seoDescription, type: "website" },
     twitter: { card: "summary_large_image", title: tool.seoTitle, description: tool.seoDescription },
-    alternates: { canonical: `https://toolhub.vercel.app/tools/${tool.slug}` },
+    alternates: { canonical: `https://toolhub1.vercel.app/tools/${tool.slug}` },
   }
 }
 
@@ -55,8 +55,8 @@ export default async function ToolPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
-      { "@type": "ListItem", position: 2, name: "Tools", item: "https://toolhub.vercel.app/tools" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
+      { "@type": "ListItem", position: 2, name: "Tools", item: "https://toolhub1.vercel.app/tools" },
       { "@type": "ListItem", position: 3, name: tool.name },
     ],
   }

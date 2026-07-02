@@ -7,11 +7,11 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Terms of Service - ToolHub",
   description: "ToolHub Terms of Service. Understand the terms and conditions for using our free online tools.",
-  alternates: { canonical: "https://toolhub.vercel.app/terms" },
+  alternates: { canonical: "https://toolhub1.vercel.app/terms" },
   openGraph: {
     title: "Terms of Service - ToolHub",
     description: "Terms and conditions for using ToolHub.",
-    url: "https://toolhub.vercel.app/terms",
+    url: "https://toolhub1.vercel.app/terms",
   },
   twitter: {
     card: "summary_large_image",
@@ -30,7 +30,7 @@ export default function TermsPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
       { "@type": "ListItem", position: 2, name: "Terms of Service" },
     ],
   }

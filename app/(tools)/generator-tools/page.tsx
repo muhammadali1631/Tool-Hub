@@ -42,11 +42,11 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `${category.name} - Free Online Generators & Creators`,
     description: category.description,
-    alternates: { canonical: "https://toolhub.vercel.app/generator-tools" },
+    alternates: { canonical: "https://toolhub1.vercel.app/generator-tools" },
     openGraph: {
       title: `${category.name} - Free Online Generators & Creators`,
       description: category.description,
-      url: "https://toolhub.vercel.app/generator-tools",
+      url: "https://toolhub1.vercel.app/generator-tools",
     },
     twitter: {
       card: "summary_large_image",
@@ -64,7 +64,7 @@ export default async function GeneratorToolsPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
       { "@type": "ListItem", position: 2, name: category.name },
     ],
   }

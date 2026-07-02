@@ -42,11 +42,11 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `${category.name} - Free Online Unit & Format Converters`,
     description: category.description,
-    alternates: { canonical: "https://toolhub.vercel.app/converter-tools" },
+    alternates: { canonical: "https://toolhub1.vercel.app/converter-tools" },
     openGraph: {
       title: `${category.name} - Free Online Unit & Format Converters`,
       description: category.description,
-      url: "https://toolhub.vercel.app/converter-tools",
+      url: "https://toolhub1.vercel.app/converter-tools",
     },
     twitter: {
       card: "summary_large_image",
@@ -64,7 +64,7 @@ export default async function ConverterToolsPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
       { "@type": "ListItem", position: 2, name: category.name },
     ],
   }

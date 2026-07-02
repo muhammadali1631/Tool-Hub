@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://toolhub.vercel.app/sitemap.xml",
+    sitemap: "https://toolhub1.vercel.app/sitemap.xml",
   }
 }

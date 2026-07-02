@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { tools } from "@/data/tools"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://toolhub.vercel.app"
+  const baseUrl = "https://toolhub1.vercel.app"
 
   const staticPages = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 1 },

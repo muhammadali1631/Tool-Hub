@@ -8,11 +8,11 @@ import { ToolSearch } from "@/components/tools/tool-search"
 export const metadata: Metadata = {
   title: "All Free Online Tools - 20 Tools Collection | ToolHub",
   description: "Browse our complete collection of free online tools including text tools, converters, generators, and calculators. All tools are free and work in your browser.",
-  alternates: { canonical: "https://toolhub.vercel.app/tools" },
+  alternates: { canonical: "https://toolhub1.vercel.app/tools" },
   openGraph: {
     title: "All Free Online Tools - ToolHub",
     description: "Browse our complete collection of free online tools.",
-    url: "https://toolhub.vercel.app/tools",
+    url: "https://toolhub1.vercel.app/tools",
   },
   twitter: {
     card: "summary_large_image",
@@ -30,7 +30,7 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub.vercel.app/" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://toolhub1.vercel.app/" },
     { "@type": "ListItem", position: 2, name: "All Tools" },
   ],
 }
